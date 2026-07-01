@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* FONT */
+* {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-size: 1.2rem;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {  
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkred;
+
+}
+
+
+
+
+/* IMMAGINI*/
+.img-logo-custom {
+    width: 300px;
+    height: 150px;
+}
+
+
+.img-avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid #ececec; 
+    outline: 5px solid darkred;
+    outline-offset: 0px;
+    margin-bottom: 15px;
+}
+
+.img-benefit{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid #ececec; 
+    outline: 5px solid darkred;
+    outline-offset: 0px;
+    margin-bottom: 5px;
+}
+
+/* BTN CUSTOM */
+.btn-custom{
+    background-color: darkred;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #ececec;
+    margin-bottom: 30vh;
+}
+
+/* HEADER */
+header {
+    background:linear-gradient( rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),url("./media/mountains2.png"), url("./media/switzerland-862870_1920.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.titolo-custom{
+    font-size: calc(2rem + 4vw);
+    position: relative;
+    top: -10%;
+    letter-spacing: 60%;
+}
+
+/* SEZIONE 1 */
+
+.section-1{
+    
+    background: #ececec;
+    background-image: url("./media/trees2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-virgolette{
+    position: relative;
+}
+
+.p-virgolette::after{
+    content: "\"";
+    color: darkred;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    transform: rotateX(180deg) translateX(10px);
+    
+}
+
+.p-virgolette::before{
+    content: "\"";
+    color: darkred;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    transform: translateX(-40px) translateY(-40px);
+}
+
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ececec;
+    border: 3px solid darkred;
+}
+
+.icone li {
+    border-bottom: 3px solid darkred;
+    width: auto;
+}
+
+li i {
+    color: #8b0000;  
+}
+
+/* SEZIONE TIMELINE */
+.timeline {
+    border-left: 3px solid darkred;
+    /* padding-left:30px; */
+}
+
+.timeline-cont{
+    background: url(./media/single.png);
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+    max-width: 100%;
+    padding-right: 0;
+}
+
+
+/* SEZIONE CHI SIAMO */
+.chisiamo{
+    background-color: #ececec;
+}
+
+.icons-avatar{
+    color: #8b0000;
+}
+
+/* SEZIONE BENEFIT */
+.benefit {
+    background-color: #ececec;
+    background-image: url("./media/other.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 50vh;
+    /* padding-right: 3rem;
+    padding-left: 3rem; */
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #8b0000;
+    margin: 0px;
+    max-height: 100%;
+    padding-left: 3rem;
+}
+
+.text-footer{
+    color: #ececec;
+}
+
+.text-footer li {
+    color: #ececec;
+}
+
+.list-center{
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUARY */
+
